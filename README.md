@@ -50,8 +50,8 @@ todo-app/
 
 1.  Clone the repository
 
-git clone https://github.com/your-username/todo-app.git 
-cd todo-app
+- git clone https://github.com/your-username/todo-app.git 
+- cd todo-app
 
 2.  Setup Backend
 
@@ -83,21 +83,21 @@ Backend runs on: http://localhost:5000
 
 ## API Endpoints
 
--- Auth Routes
+-> Auth Routes
 
-POST /api/users/register
+- POST /api/users/register
 
-POST /api/users/login
+- POST /api/users/login
 
-GET /api/users/profile
+- GET /api/users/profile
 
 
--- Todo Routes
+-> Todo Routes
 
-GET /api/todos
+- GET /api/todos
 
-POST /api/todos
+- POST /api/todos
 
-PUT /api/todos/:id
+- PUT /api/todos/:id
 
-DELETE /api/todos/:id
+- DELETE /api/todos/:id
