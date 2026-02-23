@@ -25,7 +25,7 @@ Backend: - Node.js - Express.js - MongoDB - Mongoose - JSON Web Token
 
 
 ## Project Structure
-
+```
 todo-app/
 │
 ├── backend/
@@ -44,13 +44,14 @@ todo-app/
 │   │   └── App.js
 │
 └── README.md
-
+```
 
 ## Installation & Setup
 
 1.  Clone the repository
 
-git clone https://github.com/your-username/todo-app.git cd todo-app
+git clone https://github.com/your-username/todo-app.git 
+cd todo-app
 
 2.  Setup Backend
 
