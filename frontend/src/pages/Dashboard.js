@@ -39,9 +39,7 @@ export default function Dashboard() {
     fetchTodos();
   }, [fetchTodos]);
 
-  // ==============================
-  // COMPUTED STATS (Frontend)
-  // ==============================
+  // COMPUTED STATS
   const computedStats = {
     total: todos.length,
     completed: todos.filter(t => t.completed).length,
