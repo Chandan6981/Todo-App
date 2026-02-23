@@ -18,9 +18,7 @@ export default function Dashboard() {
   const [search, setSearch] = useState('');
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
-  // ==============================
   // FETCH TODOS
-  // ==============================
   const fetchTodos = useCallback(async () => {
     try {
       const params = {};
@@ -55,9 +53,7 @@ export default function Dashboard() {
       ? Math.round((computedStats.completed / computedStats.total) * 100)
       : 0;
 
-  // ==============================
   // TOGGLE TODO
-  // ==============================
   const handleToggle = async (id) => {
     try {
       const todo = todos.find(t => t._id === id);
@@ -74,9 +70,7 @@ export default function Dashboard() {
     }
   };
 
-  // ==============================
   // DELETE TODO
-  // ==============================
   const handleDelete = async (id) => {
     try {
       await API.delete(`/todos/${id}`);
@@ -87,9 +81,7 @@ export default function Dashboard() {
     }
   };
 
-  // ==============================
   // CREATE / UPDATE TODO
-  // ==============================
   const handleSave = async (formData) => {
     try {
       if (editTodo) {
